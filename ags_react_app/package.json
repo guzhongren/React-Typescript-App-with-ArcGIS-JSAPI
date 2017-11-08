@@ -10,10 +10,7 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.js"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^3.3.0",

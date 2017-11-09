@@ -5,14 +5,14 @@ export interface Props {
     onMapViewCreated?: (mapView) => void;
 }
 
-interface States {
+interface State {
     loaded?: boolean
 }
-export default class EsriMapExt extends React.Component<Props, States> {
+export default class EsriMapExt extends React.Component<Props, State> {
     mapContainer;
     mapView;
-    constructor(props: Props, states: States) {
-        super(props, states);
+    constructor(props: Props, state: State) {
+        super(props, state);
         this.state = {
             loaded: false
         }

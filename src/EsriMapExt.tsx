@@ -8,11 +8,11 @@ export interface Props {
 interface States {
     loaded?: boolean
 }
-export default class EsriMapExt extends React.Component<Props, States> {
+export default class EsriMapExt extends React.Component<Props> {
     mapContainer;
     mapView;
-    constructor(props: Props, states: States) {
-        super(props, states);
+    constructor(props) {
+        super(props);
         this.state = {
             loaded: false
         }

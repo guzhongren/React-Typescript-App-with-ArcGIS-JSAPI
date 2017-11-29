@@ -5,7 +5,7 @@ export interface Props {
     onMapViewCreated?: (mapView) => void;
 }
 
-interface States {
+interface State {
     loaded?: boolean
 }
 export default class EsriMapExt extends React.Component<Props> {
